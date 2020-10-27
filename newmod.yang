@@ -1,0 +1,14 @@
+module newmod
+{
+namespace "urn:yang:newmod";
+prefix "nm";
+
+container newc
+{
+leaf ip
+{
+description "simple leaf";
+type uint32;
+}
+}
+}
