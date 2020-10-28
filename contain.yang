@@ -1,0 +1,30 @@
+module contain {
+namespace "urn:yang:contain";
+prefix co;
+grouping ip
+{
+leaf ipaddress
+{
+type uint32;
+}
+}
+container connection
+{
+container source
+{ uses ip{
+refine  ipaddress{
+default 1920000;
+}
+}
+}
+container destination
+{ uses ip
+{
+refine ipaddress{
+default 200;
+}
+}
+}
+}
+}
+
