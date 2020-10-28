@@ -1,0 +1,20 @@
+module listkey{
+namespace "urn:yang:listkey";
+prefix lk;
+leaf first{
+type uint32;
+}
+list detailsofemployee{
+key name;
+leaf name{
+type string;}
+leaf empid{
+type uint64;
+}
+leaf designation
+{
+type string;
+}
+}
+}
+
