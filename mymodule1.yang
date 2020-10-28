@@ -1,0 +1,12 @@
+module mymodule1
+{
+namespace "urn:mymodule1"
+container box
+{
+leaf temp
+{
+description "believer";
+type uint8;
+}
+}
+}
