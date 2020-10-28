@@ -1,8 +1,8 @@
 module listkey{
 namespace "urn:yang:listkey";
-prefix lk;
+prefix lky;
 leaf first{
-type uint32;
+type uint16;
 }
 list detailsofemployee{
 key name;
