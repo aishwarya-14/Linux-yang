@@ -1,0 +1,8 @@
+<connection xmlns="urn:yang:contain">
+<source>
+<ipaddress>2193</ipaddress>
+</source>
+   <destination>
+<ipaddress>898</ipaddress>  
+</destination>
+  </connection>
